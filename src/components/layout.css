@@ -1,4 +1,4 @@
-html {
+/* html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -619,4 +619,33 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+} */
+
+.bg-theme {
+  background-color: #191970;
+}
+
+.cart-icon {
+  font-size: 2rem;
+}
+
+.hero-background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.about-background {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-warning {
+  padding: 8px 35px;
 }
